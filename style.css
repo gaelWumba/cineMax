@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+  
+  [data-theme="dark"] {
+    --gradient-one: rgba(245, 107, 244, 0.79);
+    --gradient-two: #efad05;
+    --bg-color: #21232f;
+    --links: #FFFFFF;
+  }
+
+
+/* header */
+header{
+   height: 30%;
+    width: 100%;
+    background-image: linear-gradient(rgba(3, 16, 68, 0.7), rgba(212, 217, 235, 0.7)), url('img/cinema.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+header .neon{
+    width: 25%;
+    padding-top: 4.5em;
+    filter: drop-shadow(1px 10px 15px rgb(159, 21, 214));
+    position: absolute;
+}
+
+header .icons{
+  display: flex;
+  justify-content: space-evenly;   
+}
+
+.cine{
+  width: 10%;
+  height: 15%;
+  padding-top: 5%;
+  animation: rotation 40s infinite linear;
+}
+
+.pop{
+  width: 8%;
+  height: 15%;
+  padding-top: 3%;
+animation: hithere 6s ease infinite;
+}
+@keyframes hithere {
+  30% { transform: scale(1.2); }
+  40%, 60% { transform: rotate(-20deg) scale(1.2); }
+  50% { transform: rotate(20deg) scale(1.2); }
+  70% { transform: rotate(0deg) scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+
+.king{
+    width: 8%;
+    height: 15%;
+    padding-top: 2%;
+    animation: bounce 2s infinite alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }to {
+    transform: translateY(-30px);
+  }
+}
+
+.enjoy{
+  width: 8%;
+  height: 15%;
+  padding-top: 3%;
+}
+.enjoy {
+  animation: rotate-in-up-left 10s infinite alternate;
+}
+@keyframes rotate-in-up-left {
+  from {
+    transform-origin: left bottom;
+    transform: rotate(50deg);
+    opacity: 0;
+  }
+  to {
+    transform-origin: left bottom;
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+.ticks{
+    width: 10%;
+    height: 15%;
+    padding-top: 4%;
+}
+
+
+
+/* Main */
+main{
+    margin: 5% 10% 0 10%;
+    text-align: center;
+}
+
+.users_search{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2% 0 1% 0;
+  background-color: rgb(37, 39, 39);
+}
+
+.form-input {
+  height: 2.5em;
+  width: 15em;
+  padding-left: 1em;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 2px solid rgb(157, 96, 193);
+}
+
+.search_distributor{
+  width: 10em;
+  height: 2.7em;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 2px solid rgb(157, 96, 193);
+}
+
+
+.btn_submit{
+  height: 2.35em;
+  background-color: rgb(157, 96, 193);
+  color: rgb(222, 199, 248);
+}
+ 
+
+.needs-validation{
+  background-color: rgb(25, 24, 28);
+  color: wheat;
+  border-radius: 5px;
+
+}
+

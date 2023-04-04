@@ -27,6 +27,7 @@ This project was based around a SQL database filled with dummy data about a cine
 
 ### Backend
 - PHP
+- Ajax
 
 ### Database
 - Mysql

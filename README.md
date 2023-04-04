@@ -18,14 +18,20 @@ This project was based around a SQL database filled with dummy data about a cine
 - Plain PHP and JavaScript
 
 
-## Frontend
+### Frontend
 
 - HTML
 - CSS
 - Javascript
 
 
-## Things I learned will working on this project
+### Backend
+- PHP
+
+### Database
+- Mysql
+
+### Things I learned will working on this project
 - Bootstrap CSS
 - PDO connexion
 - SQL queries
